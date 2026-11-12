@@ -1,0 +1,55 @@
+[{"stream_name":"stderr","time":10.526527086,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.526594572,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.526602255,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.526606018,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":11.454244547,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.454281314,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.454285356,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.454288506,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":19.429367316,"data":"offpolicy ['maddpg', 'qmix', 'vdn'] | процессов: 4\n"}
+,{"stream_name":"stdout","time":2370.49750064,"data":"  [1/15 2351 c] main__maddpg__s2: ок 2339 c\n"}
+,{"stream_name":"stdout","time":2372.148708049,"data":"  [2/15 2353 c] main__maddpg__s3: ок 2341 c\n"}
+,{"stream_name":"stdout","time":2373.623627326,"data":"  [3/15 2354 c] main__maddpg__s1: ок 2342 c\n"}
+,{"stream_name":"stdout","time":2376.411906726,"data":"  [4/15 2357 c] main__maddpg__s0: ок 2345 c\n"}
+,{"stream_name":"stdout","time":3974.070637993,"data":"  [5/15 3955 c] main__qmix__s0: ок 1599 c\n"}
+,{"stream_name":"stdout","time":3975.362247834,"data":"  [6/15 3956 c] main__qmix__s2: ок 1596 c\n"}
+,{"stream_name":"stdout","time":3994.283094971,"data":"  [7/15 3975 c] main__qmix__s1: ок 1618 c\n"}
+,{"stream_name":"stdout","time":4775.079386516,"data":"  [8/15 4756 c] main__maddpg__s4: ок 2401 c\n"}
+,{"stream_name":"stdout","time":5480.970530402,"data":"  [9/15 5461 c] main__vdn__s0: ок 1484 c\n"}
+,{"stream_name":"stdout","time":5592.355351742,"data":"  [10/15 5573 c] main__qmix__s3: ок 1615 c\n"}
+,{"stream_name":"stdout","time":5599.073055679,"data":"  [11/15 5580 c] main__qmix__s4: ок 1621 c\n"}
+,{"stream_name":"stdout","time":6295.022385937,"data":"  [12/15 6276 c] main__vdn__s1: ок 1517 c\n"}
+,{"stream_name":"stdout","time":6901.083844736,"data":"  [13/15 6882 c] main__vdn__s2: ок 1417 c\n"}
+,{"stream_name":"stdout","time":6961.708998102,"data":"  [14/15 6942 c] main__vdn__s3: ок 1367 c\n"}
+,{"stream_name":"stdout","time":6991.570210494,"data":"  [15/15 6972 c] main__vdn__s4: ок 1390 c\n"}
+,{"stream_name":"stdout","time":6991.570265564,"data":"готово за 116.2 мин; ошибок: 0\n"}
+,{"stream_name":"stdout","time":6991.974696164,"data":"val (для контроля; выбор — в lab3_03):\n"}
+,{"stream_name":"stdout","time":6991.974735965,"data":"policy   gain     ir   cvar  crowded  turnover  viol_budget  seed_sd\n"}
+,{"stream_name":"stdout","time":6991.974742936,"data":"maddpg 0.1655 4.2366 0.0423   0.0067    0.0903       0.1099   0.0053\n"}
+,{"stream_name":"stdout","time":6991.974747688,"data":"  qmix 0.1734 4.3503 0.0386   0.0053    0.0943       0.0549   0.0063\n"}
+,{"stream_name":"stdout","time":6991.974752598,"data":"   vdn 0.1592 4.0755 0.0259   0.0095    0.1048       0.1319   0.0039\n"}
+,{"stream_name":"stdout","time":6991.974757252,"data":"             tag   train_sec  best_step  n_params\n"}
+,{"stream_name":"stdout","time":6991.974762153,"data":"main__maddpg__s2 2338.797122     400128     60054\n"}
+,{"stream_name":"stdout","time":6991.974766981,"data":"main__maddpg__s3 2340.928573     400128     60054\n"}
+,{"stream_name":"stdout","time":6991.974788756,"data":"main__maddpg__s1 2342.463003     400128     60054\n"}
+,{"stream_name":"stdout","time":6991.974792904,"data":"main__maddpg__s0 2345.257393     400128     60054\n"}
+,{"stream_name":"stdout","time":6991.974796638,"data":"  main__qmix__s0 1598.962482     300096     65436\n"}
+,{"stream_name":"stdout","time":6991.974800323,"data":"  main__qmix__s2 1595.980758     300096     65436\n"}
+,{"stream_name":"stdout","time":6991.974804069,"data":"  main__qmix__s1 1617.745175     400128     65436\n"}
+,{"stream_name":"stdout","time":6991.974807913,"data":"main__maddpg__s4 2401.176069     400128     60054\n"}
+,{"stream_name":"stdout","time":6991.974811518,"data":"   main__vdn__s0 1483.597003     300096     23265\n"}
+,{"stream_name":"stdout","time":6991.974815567,"data":"  main__qmix__s3 1615.214346     366720     65436\n"}
+,{"stream_name":"stdout","time":6991.974819282,"data":"  main__qmix__s4 1620.739485     300096     65436\n"}
+,{"stream_name":"stdout","time":6991.974823028,"data":"   main__vdn__s1 1516.859748     400128     23265\n"}
+,{"stream_name":"stdout","time":6991.974826547,"data":"   main__vdn__s2 1417.158437     333504     23265\n"}
+,{"stream_name":"stdout","time":6991.974830188,"data":"   main__vdn__s3 1366.570920     300096     23265\n"}
+,{"stream_name":"stdout","time":6991.974833533,"data":"   main__vdn__s4 1389.603096     400128     23265\n"}
+,{"stream_name":"stderr","time":6996.573231067,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":6996.573281041,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":6996.835115992,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":6996.83516558,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":6997.797642673,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":6997.891222012,"data":"[NbConvertApp] Writing 8525 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":7001.104760449,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":7001.813507426,"data":"[NbConvertApp] Writing 290657 bytes to __results__.html\n"}
+]

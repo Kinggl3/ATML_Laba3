@@ -1,0 +1,84 @@
+[{"stream_name":"stderr","time":9.584451218,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.584538932,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.584549411,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.584554592,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.46737709,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.467415643,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.467422188,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.46742682,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":17.377972215,"data":"данные: /kaggle/input/notebooks/nikitospevindos/lab3-00-data/results/env_data.npz | процессов: 4\n"}
+,{"stream_name":"stdout","time":999.408878393,"data":"  [1/18 982 c] tune__qmix__lr3: ок 969 c\n"}
+,{"stream_name":"stdout","time":1234.177947925,"data":"  [2/18 1217 c] tune__qmix__lr1: ок 1204 c\n"}
+,{"stream_name":"stdout","time":1446.693832378,"data":"  [3/18 1429 c] tune__maddpg__lr3: ок 1417 c\n"}
+,{"stream_name":"stdout","time":1458.560708322,"data":"  [4/18 1441 c] tune__maddpg__lr1: ок 1429 c\n"}
+,{"stream_name":"stdout","time":1715.148949622,"data":"  [5/18 1698 c] tune__mat__lr1: ок 711 c\n"}
+,{"stream_name":"stdout","time":1967.744814152,"data":"  [6/18 1950 c] tune__mat__lr3: ок 729 c\n"}
+,{"stream_name":"stdout","time":2040.0668631,"data":"  [7/18 2023 c] tune__happo__lr1: ок 322 c\n"}
+,{"stream_name":"stdout","time":2185.22985488,"data":"  [8/18 2168 c] tune__vdn__lr1: ок 736 c\n"}
+,{"stream_name":"stdout","time":2213.060034788,"data":"  [9/18 2196 c] tune__vdn__lr3: ок 751 c\n"}
+,{"stream_name":"stdout","time":2229.56778987,"data":"  [10/18 2212 c] tune__ippo__lr1: ок 187 c\n"}
+,{"stream_name":"stdout","time":2278.699771281,"data":"  [11/18 2261 c] tune__happo__lr3: ок 308 c\n"}
+,{"stream_name":"stdout","time":2352.804829517,"data":"  [12/18 2335 c] tune__mappo__lr1: ок 137 c\n"}
+,{"stream_name":"stdout","time":2368.340504494,"data":"  [13/18 2351 c] tune__mappo__lr3: ок 136 c\n"}
+,{"stream_name":"stdout","time":2368.50260083,"data":"  [14/18 2351 c] tune__ippo__lr3: ок 180 c\n"}
+,{"stream_name":"stdout","time":2472.811858323,"data":"  [15/18 2455 c] tune__coma__lr1: ок 191 c\n"}
+,{"stream_name":"stdout","time":2473.233299337,"data":"  [16/18 2456 c] tune__ppo__lr1: ок 102 c\n"}
+,{"stream_name":"stdout","time":2474.346580368,"data":"  [17/18 2457 c] tune__ppo__lr3: ок 103 c\n"}
+,{"stream_name":"stdout","time":2523.828760689,"data":"  [18/18 2506 c] tune__coma__lr3: ок 168 c\n"}
+,{"stream_name":"stdout","time":2523.828806776,"data":"готово за 41.8 мин; ошибок: 0\n"}
+,{"stream_name":"stdout","time":2523.915088146,"data":"lr_key      lr1      lr3 выбрано\n"}
+,{"stream_name":"stdout","time":2523.915129735,"data":"algo                            \n"}
+,{"stream_name":"stdout","time":2523.915135995,"data":"coma   -22.5627 -22.9792     lr1\n"}
+,{"stream_name":"stdout","time":2523.915141473,"data":"happo  -21.7750 -21.5062     lr3\n"}
+,{"stream_name":"stdout","time":2523.915147484,"data":"ippo   -20.5192 -21.3746     lr1\n"}
+,{"stream_name":"stdout","time":2523.915153145,"data":"maddpg -20.9745 -21.6158     lr1\n"}
+,{"stream_name":"stdout","time":2523.915178555,"data":"mappo  -20.8094 -21.9521     lr1\n"}
+,{"stream_name":"stdout","time":2523.915183765,"data":"mat    -21.0298 -20.8704     lr3\n"}
+,{"stream_name":"stdout","time":2523.915188635,"data":"ppo    -20.7449 -21.0668     lr1\n"}
+,{"stream_name":"stdout","time":2523.915192873,"data":"qmix   -20.8317 -21.6140     lr1\n"}
+,{"stream_name":"stdout","time":2523.915197318,"data":"vdn    -21.0295 -21.7798     lr1\n"}
+,{"stream_name":"stdout","time":2523.91520174,"data":"{\n"}
+,{"stream_name":"stdout","time":2523.915205866,"data":" \"coma\": {\n"}
+,{"stream_name":"stdout","time":2523.91521041,"data":"  \"lr\": 0.0005,\n"}
+,{"stream_name":"stdout","time":2523.915214616,"data":"  \"lr_critic\": 0.0005\n"}
+,{"stream_name":"stdout","time":2523.915218861,"data":" },\n"}
+,{"stream_name":"stdout","time":2523.915223032,"data":" \"happo\": {\n"}
+,{"stream_name":"stdout","time":2523.915227131,"data":"  \"lr\": 0.00016666666666666666,\n"}
+,{"stream_name":"stdout","time":2523.915231779,"data":"  \"lr_critic\": 0.00016666666666666666\n"}
+,{"stream_name":"stdout","time":2523.915236208,"data":" },\n"}
+,{"stream_name":"stdout","time":2523.915240353,"data":" \"ippo\": {\n"}
+,{"stream_name":"stdout","time":2523.915244495,"data":"  \"lr\": 0.0005,\n"}
+,{"stream_name":"stdout","time":2523.915248778,"data":"  \"lr_critic\": 0.0005\n"}
+,{"stream_name":"stdout","time":2523.915253183,"data":" },\n"}
+,{"stream_name":"stdout","time":2523.915257735,"data":" \"maddpg\": {\n"}
+,{"stream_name":"stdout","time":2523.91526187,"data":"  \"lr\": 0.0005,\n"}
+,{"stream_name":"stdout","time":2523.91526595,"data":"  \"lr_critic\": 0.0005\n"}
+,{"stream_name":"stdout","time":2523.915270001,"data":" },\n"}
+,{"stream_name":"stdout","time":2523.915274004,"data":" \"mappo\": {\n"}
+,{"stream_name":"stdout","time":2523.915278721,"data":"  \"lr\": 0.0005,\n"}
+,{"stream_name":"stdout","time":2523.915283801,"data":"  \"lr_critic\": 0.0005\n"}
+,{"stream_name":"stdout","time":2523.915288155,"data":" },\n"}
+,{"stream_name":"stdout","time":2523.915292453,"data":" \"mat\": {\n"}
+,{"stream_name":"stdout","time":2523.915296971,"data":"  \"lr\": 0.00016666666666666666,\n"}
+,{"stream_name":"stdout","time":2523.915301553,"data":"  \"lr_critic\": 0.00016666666666666666\n"}
+,{"stream_name":"stdout","time":2523.915306023,"data":" },\n"}
+,{"stream_name":"stdout","time":2523.915310215,"data":" \"ppo\": {\n"}
+,{"stream_name":"stdout","time":2523.915314602,"data":"  \"lr\": 0.0005,\n"}
+,{"stream_name":"stdout","time":2523.915318684,"data":"  \"lr_critic\": 0.0005\n"}
+,{"stream_name":"stdout","time":2523.915322723,"data":" },\n"}
+,{"stream_name":"stdout","time":2523.915326704,"data":" \"qmix\": {\n"}
+,{"stream_name":"stdout","time":2523.915331055,"data":"  \"lr\": 0.0005\n"}
+,{"stream_name":"stdout","time":2523.915335816,"data":" },\n"}
+,{"stream_name":"stdout","time":2523.915340403,"data":" \"vdn\": {\n"}
+,{"stream_name":"stdout","time":2523.915345065,"data":"  \"lr\": 0.0005\n"}
+,{"stream_name":"stdout","time":2523.91534971,"data":" }\n"}
+,{"stream_name":"stdout","time":2523.915353992,"data":"}\n"}
+,{"stream_name":"stderr","time":2530.431657712,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2530.431738039,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2530.666468452,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2530.666535223,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2531.67210817,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":2531.775804989,"data":"[NbConvertApp] Writing 10662 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":2535.292080893,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2536.042038554,"data":"[NbConvertApp] Writing 299328 bytes to __results__.html\n"}
+]

@@ -1,0 +1,11 @@
+day,gain,flag_holiday,flag_weekend,flag_planned_works,flag_city_event
+2026-09-27,0.020660639,False,True,False,False
+2026-08-07,0.02620976,False,False,True,False
+2026-07-04,0.031100428,True,True,True,False
+2026-07-05,0.062222145,False,True,True,True
+2026-09-20,0.12703331,False,True,False,False
+2026-09-13,0.12803519,False,True,False,False
+2026-07-02,0.13025022,False,False,False,False
+2026-07-18,0.1340183,False,True,True,False
+2026-09-26,0.13936567,False,True,False,False
+2026-10-11,0.14069384,False,True,False,False

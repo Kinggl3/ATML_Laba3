@@ -1,0 +1,88 @@
+[{"stream_name":"stderr","time":8.284101795,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.28423899,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.284245741,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.284250081,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.00009529,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.00014224,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.000148457,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.000153016,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":15.776136307,"data":"onpolicy ['mat', 'happo', 'ippo', 'mappo', 'coma', 'ppo'] | процессов: 4\n"}
+,{"stream_name":"stdout","time":1282.634706782,"data":"  [1/30 1267 c] main__mat__s1: ок 1253 c\n"}
+,{"stream_name":"stdout","time":1282.634777592,"data":"  [2/30 1267 c] main__mat__s3: ок 1253 c\n"}
+,{"stream_name":"stdout","time":1282.634783255,"data":"  [3/30 1267 c] main__mat__s2: ок 1253 c\n"}
+,{"stream_name":"stdout","time":1285.192827562,"data":"  [4/30 1269 c] main__mat__s0: ок 1256 c\n"}
+,{"stream_name":"stdout","time":1819.924263356,"data":"  [5/30 1804 c] main__happo__s1: ок 534 c\n"}
+,{"stream_name":"stdout","time":1823.387790457,"data":"  [6/30 1808 c] main__happo__s0: ок 538 c\n"}
+,{"stream_name":"stdout","time":1823.388147633,"data":"  [7/30 1808 c] main__happo__s2: ок 535 c\n"}
+,{"stream_name":"stdout","time":2129.246351355,"data":"  [8/30 2113 c] main__ippo__s0: ок 303 c\n"}
+,{"stream_name":"stdout","time":2367.571324305,"data":"  [9/30 2352 c] main__happo__s3: ок 545 c\n"}
+,{"stream_name":"stdout","time":2367.849755352,"data":"  [10/30 2352 c] main__happo__s4: ок 542 c\n"}
+,{"stream_name":"stdout","time":2438.320054707,"data":"  [11/30 2422 c] main__ippo__s1: ок 306 c\n"}
+,{"stream_name":"stdout","time":2486.502708358,"data":"  [12/30 2471 c] main__mat__s4: ок 1198 c\n"}
+,{"stream_name":"stdout","time":2680.762442172,"data":"  [13/30 2665 c] main__ippo__s3: ок 310 c\n"}
+,{"stream_name":"stdout","time":2687.526516735,"data":"  [14/30 2672 c] main__ippo__s2: ок 317 c\n"}
+,{"stream_name":"stdout","time":2724.590302085,"data":"  [15/30 2709 c] main__mappo__s0: ок 235 c\n"}
+,{"stream_name":"stdout","time":2755.091238381,"data":"  [16/30 2739 c] main__ippo__s4: ок 314 c\n"}
+,{"stream_name":"stdout","time":2917.158276055,"data":"  [17/30 2901 c] main__mappo__s1: ок 234 c\n"}
+,{"stream_name":"stdout","time":2925.48407573,"data":"  [18/30 2910 c] main__mappo__s2: ок 235 c\n"}
+,{"stream_name":"stdout","time":2961.449295217,"data":"  [19/30 2946 c] main__mappo__s3: ок 234 c\n"}
+,{"stream_name":"stdout","time":2991.74427937,"data":"  [20/30 2976 c] main__mappo__s4: ок 234 c\n"}
+,{"stream_name":"stdout","time":3231.8853168,"data":"  [21/30 3216 c] main__coma__s0: ок 312 c\n"}
+,{"stream_name":"stdout","time":3240.622687151,"data":"  [22/30 3225 c] main__coma__s1: ок 312 c\n"}
+,{"stream_name":"stdout","time":3274.992580429,"data":"  [23/30 3259 c] main__coma__s2: ок 311 c\n"}
+,{"stream_name":"stdout","time":3308.871649371,"data":"  [24/30 3293 c] main__coma__s3: ок 314 c\n"}
+,{"stream_name":"stdout","time":3396.758303452,"data":"  [25/30 3381 c] main__ppo__s0: ок 153 c\n"}
+,{"stream_name":"stdout","time":3429.749281975,"data":"  [26/30 3414 c] main__ppo__s1: ок 152 c\n"}
+,{"stream_name":"stdout","time":3462.550310223,"data":"  [27/30 3447 c] main__ppo__s2: ок 151 c\n"}
+,{"stream_name":"stdout","time":3526.219398562,"data":"  [28/30 3510 c] main__coma__s4: ок 292 c\n"}
+,{"stream_name":"stdout","time":3534.554054316,"data":"  [29/30 3519 c] main__ppo__s3: ок 135 c\n"}
+,{"stream_name":"stdout","time":3555.581591236,"data":"  [30/30 3540 c] main__ppo__s4: ок 123 c\n"}
+,{"stream_name":"stdout","time":3555.581645012,"data":"готово за 59.0 мин; ошибок: 0\n"}
+,{"stream_name":"stdout","time":3555.970660564,"data":"val (для контроля; выбор — в lab3_03):\n"}
+,{"stream_name":"stdout","time":3555.970710678,"data":"policy   gain     ir    cvar  crowded  turnover  viol_budget  seed_sd\n"}
+,{"stream_name":"stdout","time":3555.970716673,"data":"  coma 0.0996 2.3322 -0.0250   0.0163    0.0666       0.3077   0.0213\n"}
+,{"stream_name":"stdout","time":3555.970719992,"data":" happo 0.1475 3.7742  0.0228   0.0137    0.0677       0.3956   0.0265\n"}
+,{"stream_name":"stdout","time":3555.970723409,"data":"  ippo 0.1832 4.0044  0.0302   0.0069    0.0804       0.2637   0.0045\n"}
+,{"stream_name":"stdout","time":3555.970726537,"data":" mappo 0.1817 3.8963  0.0223   0.0066    0.0822       0.2747   0.0048\n"}
+,{"stream_name":"stdout","time":3555.970729674,"data":"   mat 0.1566 3.8652  0.0254   0.0082    0.0815       0.0549   0.0099\n"}
+,{"stream_name":"stdout","time":3555.970733468,"data":"   ppo 0.1719 4.1183  0.0378   0.0067    0.0881       0.1978   0.0032\n"}
+,{"stream_name":"stdout","time":3555.970738129,"data":"            tag   train_sec  best_step  n_params\n"}
+,{"stream_name":"stdout","time":3555.970742687,"data":"  main__mat__s1 1252.971384     400128     96802\n"}
+,{"stream_name":"stdout","time":3555.970747286,"data":"  main__mat__s3 1252.925989     400128     96802\n"}
+,{"stream_name":"stdout","time":3555.970751611,"data":"  main__mat__s2 1252.908987     400128     96802\n"}
+,{"stream_name":"stdout","time":3555.970756154,"data":"  main__mat__s0 1255.540962     334080     96802\n"}
+,{"stream_name":"stdout","time":3555.97076033,"data":"main__happo__s1  534.204024     367104    240324\n"}
+,{"stream_name":"stdout","time":3555.970764898,"data":"main__happo__s0  537.699814     367104    240324\n"}
+,{"stream_name":"stdout","time":3555.970769395,"data":"main__happo__s2  535.193632     400128    240324\n"}
+,{"stream_name":"stdout","time":3555.970778918,"data":" main__ippo__s0  303.043933     334080     46014\n"}
+,{"stream_name":"stdout","time":3555.970783682,"data":"main__happo__s3  544.616259     367104    240324\n"}
+,{"stream_name":"stdout","time":3555.970788517,"data":"main__happo__s4  541.517985     334080    240324\n"}
+,{"stream_name":"stdout","time":3555.970793179,"data":" main__ippo__s1  306.216870     400128     46014\n"}
+,{"stream_name":"stdout","time":3555.970797961,"data":"  main__mat__s4 1197.838630     300288     96802\n"}
+,{"stream_name":"stdout","time":3555.970802699,"data":" main__ippo__s3  310.080107     400128     46014\n"}
+,{"stream_name":"stdout","time":3555.970806846,"data":" main__ippo__s2  317.129048     300288     46014\n"}
+,{"stream_name":"stdout","time":3555.97080974,"data":"main__mappo__s0  235.276679     300288     54204\n"}
+,{"stream_name":"stdout","time":3555.970812607,"data":" main__ippo__s4  313.998393     267264     46014\n"}
+,{"stream_name":"stdout","time":3555.970816867,"data":"main__mappo__s1  233.510630     400128     54204\n"}
+,{"stream_name":"stdout","time":3555.970822607,"data":"main__mappo__s2  235.156567     233472     54204\n"}
+,{"stream_name":"stdout","time":3555.970844866,"data":"main__mappo__s3  234.095605     300288     54204\n"}
+,{"stream_name":"stdout","time":3555.970849415,"data":"main__mappo__s4  233.873044     334080     54204\n"}
+,{"stream_name":"stdout","time":3555.970853433,"data":" main__coma__s0  311.920034     400128     66550\n"}
+,{"stream_name":"stdout","time":3555.970856952,"data":" main__coma__s1  312.321331     300096     66550\n"}
+,{"stream_name":"stdout","time":3555.970860286,"data":" main__coma__s2  310.662938     366720     66550\n"}
+,{"stream_name":"stdout","time":3555.970863202,"data":" main__coma__s3  314.218412     333504     66550\n"}
+,{"stream_name":"stdout","time":3555.97086629,"data":"  main__ppo__s0  153.225405     367104     67554\n"}
+,{"stream_name":"stdout","time":3555.970869466,"data":"  main__ppo__s1  152.004359     400128     67554\n"}
+,{"stream_name":"stdout","time":3555.970872778,"data":"  main__ppo__s2  150.955412     367104     67554\n"}
+,{"stream_name":"stdout","time":3555.970876435,"data":" main__coma__s4  291.551467     200064     66550\n"}
+,{"stream_name":"stdout","time":3555.970879583,"data":"  main__ppo__s3  135.243491     400128     67554\n"}
+,{"stream_name":"stdout","time":3555.97088428,"data":"  main__ppo__s4  123.225032     367104     67554\n"}
+,{"stream_name":"stderr","time":3559.906473073,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3559.906512813,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3560.111746647,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3560.111787343,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3561.015179474,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":3561.110307934,"data":"[NbConvertApp] Writing 10458 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":3564.332811265,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3564.963762627,"data":"[NbConvertApp] Writing 292249 bytes to __results__.html\n"}
+]

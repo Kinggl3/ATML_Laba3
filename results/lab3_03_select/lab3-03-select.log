@@ -1,0 +1,58 @@
+[{"stream_name":"stderr","time":10.655438583,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.655578035,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.655593581,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.655598637,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":11.556443879,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.556508201,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.556516022,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.556521065,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":25.7862972,"data":"прогонов: 45 | алгоритмы: ['coma', 'happo', 'ippo', 'maddpg', 'mappo', 'mat', 'ppo', 'qmix', 'vdn']\n"}
+,{"stream_name":"stdout","time":111.787152236,"data":"ВНИМАНИЕ: ни один алгоритм не прошёл условия допуска — выбор среди всех (записать в отступления)\n"}
+,{"stream_name":"stdout","time":111.787231839,"data":"ВЫБРАН: ippo — максимум сводного балла\n"}
+,{"stream_name":"stdout","time":111.787238433,"data":"policy  score   gain  ci_lo     ir    cvar  crowded  turnover  viol_budget  seed_sd  admissible\n"}
+,{"stream_name":"stdout","time":111.787242171,"data":"  ippo 0.8778 0.1832 0.1737 4.0044  0.0302   0.0069    0.0804       0.2637   0.0045       False\n"}
+,{"stream_name":"stdout","time":111.787245706,"data":"  qmix 0.8704 0.1734 0.1648 4.3503  0.0386   0.0053    0.0943       0.0549   0.0063       False\n"}
+,{"stream_name":"stdout","time":111.787249246,"data":"maddpg 0.8371 0.1655 0.1565 4.2366  0.0423   0.0067    0.0903       0.1099   0.0053       False\n"}
+,{"stream_name":"stdout","time":111.787252839,"data":" mappo 0.8350 0.1817 0.1723 3.8963  0.0223   0.0066    0.0822       0.2747   0.0048       False\n"}
+,{"stream_name":"stdout","time":111.787256332,"data":"   mat 0.7115 0.1566 0.1445 3.8652  0.0254   0.0082    0.0815       0.0549   0.0099       False\n"}
+,{"stream_name":"stdout","time":111.787259874,"data":"   vdn 0.6852 0.1592 0.1504 4.0755  0.0259   0.0095    0.1048       0.1319   0.0039       False\n"}
+,{"stream_name":"stdout","time":111.787263495,"data":" happo 0.6064 0.1475 0.1195 3.7742  0.0228   0.0137    0.0677       0.3956   0.0265       False\n"}
+,{"stream_name":"stdout","time":111.787266962,"data":"  coma 0.1116 0.0996 0.0825 2.3322 -0.0250   0.0163    0.0666       0.3077   0.0213       False\n"}
+,{"stream_name":"stdout","time":114.50417863,"data":"    policy      gain  ci_lo  ci_hi     ir  sortino  worst  cvar  cost_per_pax  wait_per_pax  crowded  breach  turnover  used_frac  viol_budget  clip_share  cap_share  seed_sd  n_seeds\n"}
+,{"stream_name":"stdout","time":114.50423037,"data":"      ippo 17.530001  16.54  18.39  5.374      inf   2.62  7.49         1.991         1.397     0.63    0.42      8.03      1.000        27.91       11.01  39.599998     0.55        5\n"}
+,{"stream_name":"stdout","time":114.50423829,"data":"     mappo 17.299999  16.30  18.05  4.910      inf   0.49  6.74         1.995         1.399     0.64    0.55      7.94      1.002        31.40        9.55  62.689999     0.32        5\n"}
+,{"stream_name":"stdout","time":114.504244261,"data":"     happo 14.050000  11.83  15.61  4.650  145.843  -0.89  6.26         2.077         1.406     1.27    0.85      6.65      1.006        47.67        7.19  78.949997     2.01        5\n"}
+,{"stream_name":"stdout","time":114.504268213,"data":"       mat 15.050000  13.38  16.42  4.886      inf   1.30  6.04         2.053         1.410     0.77    0.70      7.87      0.999        16.28       10.03  65.720001     1.48        5\n"}
+,{"stream_name":"stdout","time":114.504273084,"data":"      coma  9.400000   7.79  11.51  2.775    9.108  -9.57  1.01         2.193         1.427     1.55    1.39      6.20      1.003        46.51       17.65  54.470001     1.97        5\n"}
+,{"stream_name":"stdout","time":114.50427743,"data":"    maddpg 15.590000  14.63  16.34  4.604      inf   1.13  5.89         2.040         1.407     0.72    0.49      9.03      1.002        10.47        8.56  47.290001     0.48        5\n"}
+,{"stream_name":"stdout","time":114.504281772,"data":"       vdn 14.640000  13.41  15.55  3.843   25.391  -5.35  2.44         2.060         1.417     0.82    0.76     10.39      0.998         6.98        9.19  59.439999     0.43        5\n"}
+,{"stream_name":"stdout","time":114.504286331,"data":"      qmix 16.290001  15.15  17.24  4.567   56.995  -2.65  4.90         2.021         1.405     0.49    0.43      9.26      0.999         8.14        9.26  46.660000     0.55        5\n"}
+,{"stream_name":"stdout","time":114.504290822,"data":"       ppo 16.459999  15.59  17.15  5.150      inf   2.78  7.09         2.017         1.406     0.75    0.54      8.78      1.000        20.93        7.95  70.550003     0.33        5\n"}
+,{"stream_name":"stdout","time":114.504295671,"data":"  schedule -0.000000  -0.00   0.00 -0.026   -0.035  -0.00 -0.00         2.432         1.415     4.78    2.59      0.00      1.000         0.00        0.00   0.000000     0.00        1\n"}
+,{"stream_name":"stdout","time":114.504302289,"data":"   mpc_m4w 18.270000  17.22  19.19  4.767  190.886  -0.89  7.09         1.979         1.380     0.65    0.39      9.07      1.000         0.00        4.29   0.000000     0.00        1\n"}
+,{"stream_name":"stdout","time":114.504307724,"data":"  mpc_norm 19.190001  18.24  19.99  5.371  200.446  -0.89  8.86         1.956         1.380     0.56    0.39      9.11      0.999         0.00        4.27   0.000000     0.00        1\n"}
+,{"stream_name":"stdout","time":114.504312459,"data":"   mpc_hyb 19.750000  18.75  20.46  5.783 1662.189  -0.11  9.59         1.948         1.379     0.75    0.44      8.90      1.000         0.00        4.04   0.000000     0.00        1\n"}
+,{"stream_name":"stdout","time":114.504317661,"data":"mpc_oracle 20.610001  19.84  21.18  7.506      inf  11.21 13.57         1.924         1.377     0.46    0.31      9.17      1.000         0.00        4.32   0.000000     0.00        1\n"}
+,{"stream_name":"stdout","time":116.881037417,"data":"                       сравнение     A          B  diff    lo    hi     p  days\n"}
+,{"stream_name":"stdout","time":116.881097985,"data":"                H1: MAPPO − IPPO mappo       ippo -0.23 -0.38 -0.08 0.004    86\n"}
+,{"stream_name":"stdout","time":116.88110604,"data":"      H2: выбранный − расписание  ippo   schedule 17.53 16.61 18.18 0.000    86\n"}
+,{"stream_name":"stdout","time":116.881124957,"data":"H3: выбранный − PPO (один агент)  ippo        ppo  1.07  0.88  1.27 0.000    86\n"}
+,{"stream_name":"stdout","time":116.881129817,"data":"  H7: выбранный − MPC norm_level  ippo   mpc_norm -1.66 -2.18 -1.14 0.000    86\n"}
+,{"stream_name":"stdout","time":116.881134221,"data":"              выбранный − оракул  ippo mpc_oracle -3.08 -3.51 -2.69 0.000    86\n"}
+,{"stream_name":"stdout","time":116.881138837,"data":"            PPO − MPC norm_level   ppo   mpc_norm -2.73 -3.31 -2.13 0.000    86\n"}
+,{"stream_name":"stdout","time":117.482485265,"data":" algo  train_min  params  best_step  infer_ms\n"}
+,{"stream_name":"stdout","time":117.482576124,"data":" coma       5.14   66550   320102.4      0.05\n"}
+,{"stream_name":"stdout","time":117.482582674,"data":"happo       8.98  240324   367104.0      0.07\n"}
+,{"stream_name":"stdout","time":117.482586832,"data":" ippo       5.17   46014   340377.6      0.05\n"}
+,{"stream_name":"stdout","time":117.482590813,"data":"mappo       3.91   54204   313651.2      0.05\n"}
+,{"stream_name":"stdout","time":117.482594704,"data":"  mat      20.71   96802   366950.4      0.64\n"}
+,{"stream_name":"stdout","time":117.48259865,"data":"  ppo       2.38   67554   380313.6      0.03\n"}
+,{"stream_name":"stderr","time":126.758851477,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":126.75890283,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":127.046524117,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":127.046565707,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":128.130447586,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":128.230622071,"data":"[NbConvertApp] Writing 18727 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":131.768597845,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":132.489255349,"data":"[NbConvertApp] Writing 323696 bytes to __results__.html\n"}
+]

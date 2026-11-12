@@ -1,0 +1,260 @@
+[{"stream_name":"stderr","time":9.845097222,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.845246562,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.845254952,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.845260377,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.694984083,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.695036009,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.695042959,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.695048331,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":12.139827707,"data":"Writing /kaggle/working/marl_env.py\n"}
+,{"stream_name":"stdout","time":12.17674112,"data":"Writing /kaggle/working/marl_data.py\n"}
+,{"stream_name":"stdout","time":12.214767121,"data":"Writing /kaggle/working/marl_algos.py\n"}
+,{"stream_name":"stdout","time":12.247430242,"data":"Writing /kaggle/working/marl_eval.py\n"}
+,{"stream_name":"stdout","time":19.452241879,"data":"датасет ВКР: /kaggle/input/datasets/nikitospevindos/vkr-pm232-pevin-mta | входы (32708, 424) | 2023-01-01 00:00:00 … 2026-09-24 23:00:00\n"}
+,{"stream_name":"stdout","time":33.959736397,"data":"  входы 2026-09-25…2026-10-02: 70388 строк\n"}
+,{"stream_name":"stdout","time":46.717838858,"data":"  входы 2026-10-02…2026-10-09: 70467 строк\n"}
+,{"stream_name":"stdout","time":50.883285023,"data":"  входы 2026-10-09…2026-10-16: 70102 строк\n"}
+,{"stream_name":"stdout","time":61.526978607,"data":"  входы 2026-10-16…2026-10-23: 70464 строк\n"}
+,{"stream_name":"stdout","time":67.239554596,"data":"  входы 2026-10-23…2026-10-30: 70616 строк\n"}
+,{"stream_name":"stdout","time":67.746206981,"data":"  входы 2026-10-30…2026-11-06: 0 строк\n"}
+,{"stream_name":"stdout","time":68.275715841,"data":"  входы 2026-11-06…2026-11-06: 0 строк\n"}
+,{"stream_name":"stdout","time":68.664484903,"data":"свежие входы: 35 полных суток подряд, 2026-09-25 … 2026-10-29; станций с данными 424\n"}
+,{"stream_name":"stdout","time":69.555387429,"data":"  форма запроса расписания «agg_departure»: отклонена — 400 https://data.ny.gov/resource/ebrw-j62c.json: {\"message\":\"Query coordinator error: query.soql.no-such-function; No such function 'date_trunc_ymdh'; arity=1; position: Map(row -\u003e 1, column -\u003e 8, line -\u003e \\\"SELECT date_trunc_ymdh(`departure_time`) AS `ts`, `line`, `direction`, `trip_type`, count(*) \n"}
+,{"stream_name":"stdout","time":75.842775518,"data":"  форма запроса расписания «agg_service_date»: отклонена — 400 https://data.ny.gov/resource/ebrw-j62c.json: {\"message\":\"Query coordinator error: query.soql.no-such-function; No such function 'date_trunc_ymdh'; arity=1; position: Map(row -\u003e 1, column -\u003e 8, line -\u003e \\\"SELECT date_trunc_ymdh(`departure_time`) AS `ts`, `line`, `direction`, `trip_type`, count(*) \n"}
+,{"stream_name":"stdout","time":78.494141057,"data":"  форма запроса расписания «agg_no_type»: отклонена — 400 https://data.ny.gov/resource/ebrw-j62c.json: {\"message\":\"Query coordinator error: query.soql.no-such-function; No such function 'date_trunc_ymdh'; arity=1; position: Map(row -\u003e 1, column -\u003e 8, line -\u003e \\\"SELECT date_trunc_ymdh(`departure_time`) AS `ts`, `line`, `direction`, count(*) AS `n` WHERE \n"}
+,{"stream_name":"stdout","time":79.282296386,"data":"  форма запроса расписания «raw_rows»: принята, пример [{'departure_time': '2024-03-06T00:02:30.000', 'line': '3', 'direction': 'S', 'trip_type': '0'}]\n"}
+,{"stream_name":"stdout","time":120.565288854,"data":"  расписание 2023 2023-01-01…2023-02-01: 43883 строк\n"}
+,{"stream_name":"stdout","time":156.443304842,"data":"  расписание 2023 2023-02-01…2023-03-01: 39911 строк\n"}
+,{"stream_name":"stdout","time":201.551679678,"data":"  расписание 2023 2023-03-01…2023-04-01: 44518 строк\n"}
+,{"stream_name":"stdout","time":229.314753324,"data":"  расписание 2023 2023-04-01…2023-05-01: 42245 строк\n"}
+,{"stream_name":"stdout","time":250.845852223,"data":"  расписание 2023 2023-05-01…2023-06-01: 43704 строк\n"}
+,{"stream_name":"stdout","time":280.986524469,"data":"  расписание 2023 2023-06-01…2023-07-01: 43172 строк\n"}
+,{"stream_name":"stdout","time":311.978754982,"data":"  расписание 2023 2023-07-01…2023-08-01: 44075 строк\n"}
+,{"stream_name":"stdout","time":344.56497912,"data":"  расписание 2023 2023-08-01…2023-09-01: 44977 строк\n"}
+,{"stream_name":"stdout","time":375.440989095,"data":"  расписание 2023 2023-09-01…2023-10-01: 42500 строк\n"}
+,{"stream_name":"stdout","time":410.313356777,"data":"  расписание 2023 2023-10-01…2023-11-01: 44443 строк\n"}
+,{"stream_name":"stdout","time":439.175858384,"data":"  расписание 2023 2023-11-01…2023-12-01: 42764 строк\n"}
+,{"stream_name":"stdout","time":474.036224811,"data":"  расписание 2023 2023-12-01…2024-01-01: 43939 строк\n"}
+,{"stream_name":"stdout","time":505.813749245,"data":"  расписание 2024 2024-01-01…2024-02-01: 44653 строк\n"}
+,{"stream_name":"stdout","time":525.65912485,"data":"  расписание 2024 2024-02-01…2024-03-01: 40949 строк\n"}
+,{"stream_name":"stdout","time":560.386595711,"data":"  расписание 2024 2024-03-01…2024-04-01: 44247 строк\n"}
+,{"stream_name":"stdout","time":588.265247565,"data":"  расписание 2024 2024-04-01…2024-05-01: 43042 строк\n"}
+,{"stream_name":"stdout","time":618.631010182,"data":"  расписание 2024 2024-05-01…2024-06-01: 44331 строк\n"}
+,{"stream_name":"stdout","time":653.57932213,"data":"  расписание 2024 2024-06-01…2024-07-01: 42655 строк\n"}
+,{"stream_name":"stdout","time":684.938497693,"data":"  расписание 2024 2024-07-01…2024-08-01: 44572 строк\n"}
+,{"stream_name":"stdout","time":708.778275738,"data":"  расписание 2024 2024-08-01…2024-09-01: 44140 строк\n"}
+,{"stream_name":"stdout","time":747.650873396,"data":"  расписание 2024 2024-09-01…2024-10-01: 42458 строк\n"}
+,{"stream_name":"stdout","time":772.182184352,"data":"  расписание 2024 2024-10-01…2024-11-01: 44371 строк\n"}
+,{"stream_name":"stdout","time":797.336807731,"data":"  расписание 2024 2024-11-01…2024-12-01: 42308 строк\n"}
+,{"stream_name":"stdout","time":826.032887173,"data":"  расписание 2024 2024-12-01…2025-01-01: 44409 строк\n"}
+,{"stream_name":"stdout","time":854.453168569,"data":"  расписание 2025 2025-01-01…2025-02-01: 44532 строк\n"}
+,{"stream_name":"stdout","time":888.442008508,"data":"  расписание 2025 2025-02-01…2025-03-01: 39814 строк\n"}
+,{"stream_name":"stdout","time":921.5545862,"data":"  расписание 2025 2025-03-01…2025-04-01: 43968 строк\n"}
+,{"stream_name":"stdout","time":943.259249241,"data":"  расписание 2025 2025-04-01…2025-05-01: 43424 строк\n"}
+,{"stream_name":"stdout","time":970.3570686,"data":"  расписание 2025 2025-05-01…2025-06-01: 44288 строк\n"}
+,{"stream_name":"stdout","time":1003.452709677,"data":"  расписание 2025 2025-06-01…2025-07-01: 43261 строк\n"}
+,{"stream_name":"stdout","time":1056.465819372,"data":"  расписание 2025 2025-07-01…2025-08-01: 44638 строк\n"}
+,{"stream_name":"stdout","time":1091.588748457,"data":"  расписание 2025 2025-08-01…2025-09-01: 44365 строк\n"}
+,{"stream_name":"stdout","time":1130.367123333,"data":"  расписание 2025 2025-09-01…2025-10-01: 43166 строк\n"}
+,{"stream_name":"stdout","time":1162.375736922,"data":"  расписание 2025 2025-10-01…2025-11-01: 44451 строк\n"}
+,{"stream_name":"stdout","time":1221.270666763,"data":"  расписание 2025 2025-11-01…2025-12-01: 42243 строк\n"}
+,{"stream_name":"stdout","time":1296.00249023,"data":"  расписание 2025 2025-12-01…2026-01-01: 44565 строк\n"}
+,{"stream_name":"stdout","time":1354.091494315,"data":"  расписание 2026 2026-01-01…2026-02-01: 43911 строк\n"}
+,{"stream_name":"stdout","time":1417.141510813,"data":"  расписание 2026 2026-02-01…2026-03-01: 40147 строк\n"}
+,{"stream_name":"stdout","time":1480.519464939,"data":"  расписание 2026 2026-03-01…2026-04-01: 44464 строк\n"}
+,{"stream_name":"stdout","time":1539.760460704,"data":"  расписание 2026 2026-04-01…2026-05-01: 42868 строк\n"}
+,{"stream_name":"stdout","time":1604.269400465,"data":"  расписание 2026 2026-05-01…2026-06-01: 42322 строк\n"}
+,{"stream_name":"stdout","time":1671.066349012,"data":"  расписание 2026 2026-06-01…2026-07-01: 43211 строк\n"}
+,{"stream_name":"stdout","time":1748.232725064,"data":"  расписание 2026 2026-07-01…2026-08-01: 44079 строк\n"}
+,{"stream_name":"stdout","time":1760.45706661,"data":"  расписание 2026 2026-08-01…2026-09-01: 8486 строк\n"}
+,{"stream_name":"stdout","time":1761.132374885,"data":"  расписание 2026 2026-09-01…2026-10-01: 0 строк\n"}
+,{"stream_name":"stdout","time":1761.829505472,"data":"  расписание 2026 2026-10-01…2026-10-30: 0 строк\n"}
+,{"stream_name":"stdout","time":1764.264198573,"data":"расписание: 1,871,730 строк, форма запроса «raw_rows», 1695 c\n"}
+,{"stream_name":"stdout","time":1764.264250421,"data":"рейсы по trip_type: {'0': 10053559, 'L': 497967, 'P': 520555}\n"}
+,{"stream_name":"stdout","time":1764.546034016,"data":"оставлены рейсы trip_type = 0\n"}
+,{"stream_name":"stdout","time":1767.418873968,"data":"  2023-03-08: строк 10554, уникальных рейсов 10554\n"}
+,{"stream_name":"stdout","time":1768.886092686,"data":"  2024-07-13: строк 7277, уникальных рейсов 7277\n"}
+,{"stream_name":"stdout","time":1773.380324489,"data":"  2025-10-08: строк 10806, уникальных рейсов 10806\n"}
+,{"stream_name":"stdout","time":1775.212702519,"data":"  2026-02-11: строк 10829, уникальных рейсов 10829\n"}
+,{"stream_name":"stdout","time":1776.564856639,"data":"  2026-05-16: строк 7153, уникальных рейсов 7153\n"}
+,{"stream_name":"stdout","time":1781.450533951,"data":"  рейсы 2023-01-11: 10456\n"}
+,{"stream_name":"stdout","time":1786.266890153,"data":"  рейсы 2023-01-14: 6611\n"}
+,{"stream_name":"stdout","time":1790.197671207,"data":"  рейсы 2023-04-12: 10489\n"}
+,{"stream_name":"stdout","time":1792.066859049,"data":"  рейсы 2023-04-08: 7263\n"}
+,{"stream_name":"stdout","time":1794.804134398,"data":"  рейсы 2023-07-12: 10569\n"}
+,{"stream_name":"stdout","time":1796.743084181,"data":"  рейсы 2023-07-08: 7172\n"}
+,{"stream_name":"stdout","time":1798.405490446,"data":"  рейсы 2023-10-11: 10610\n"}
+,{"stream_name":"stdout","time":1800.019343649,"data":"  рейсы 2023-10-14: 7409\n"}
+,{"stream_name":"stdout","time":1801.98877289,"data":"  рейсы 2024-01-10: 10622\n"}
+,{"stream_name":"stdout","time":1805.161774291,"data":"  рейсы 2024-01-13: 7423\n"}
+,{"stream_name":"stdout","time":1808.814853575,"data":"  рейсы 2024-04-10: 10677\n"}
+,{"stream_name":"stdout","time":1812.138441731,"data":"  рейсы 2024-04-13: 7142\n"}
+,{"stream_name":"stdout","time":1813.937261592,"data":"  рейсы 2024-07-10: 10622\n"}
+,{"stream_name":"stdout","time":1815.548238058,"data":"  рейсы 2024-07-13: 7278\n"}
+,{"stream_name":"stdout","time":1817.656332037,"data":"  рейсы 2024-10-09: 10720\n"}
+,{"stream_name":"stdout","time":1821.127664143,"data":"  рейсы 2024-10-12: 7106\n"}
+,{"stream_name":"stdout","time":1822.578128265,"data":"  рейсы 2025-01-08: 10877\n"}
+,{"stream_name":"stdout","time":1823.821467307,"data":"  рейсы 2025-01-11: 7709\n"}
+,{"stream_name":"stdout","time":1825.891342074,"data":"  рейсы 2025-04-09: 10718\n"}
+,{"stream_name":"stdout","time":1828.070301824,"data":"  рейсы 2025-04-12: 7103\n"}
+,{"stream_name":"stdout","time":1829.879766285,"data":"  рейсы 2025-07-09: 10826\n"}
+,{"stream_name":"stdout","time":1831.988349779,"data":"  рейсы 2025-07-12: 7609\n"}
+,{"stream_name":"stdout","time":1833.69637777,"data":"  рейсы 2025-10-08: 10807\n"}
+,{"stream_name":"stdout","time":1835.56301189,"data":"  рейсы 2025-10-11: 7094\n"}
+,{"stream_name":"stdout","time":1836.779659557,"data":"  рейсы 2026-01-14: 10952\n"}
+,{"stream_name":"stdout","time":1839.39486256,"data":"  рейсы 2026-01-10: 6989\n"}
+,{"stream_name":"stdout","time":1841.186837231,"data":"  рейсы 2026-04-08: 10829\n"}
+,{"stream_name":"stdout","time":1842.553984479,"data":"  рейсы 2026-04-11: 6825\n"}
+,{"stream_name":"stdout","time":1844.31670321,"data":"  рейсы 2026-07-08: 10716\n"}
+,{"stream_name":"stdout","time":1846.92896429,"data":"  рейсы 2026-07-11: 6752\n"}
+,{"stream_name":"stdout","time":1847.533884577,"data":"  рейсы 2026-10-14: 0\n"}
+,{"stream_name":"stdout","time":1848.627285374,"data":"  рейсы 2026-10-10: 0\n"}
+,{"stream_name":"stdout","time":1848.796712759,"data":"время рейса: 222,908 рейсов, 30 дат\n"}
+,{"stream_name":"stdout","time":1850.531293396,"data":"прогноз гибрида ВКР val: точек 2161, /kaggle/input/notebooks/nikitospevindos/16-hybrid-kaggle-ipynb/results/preds/hyb_blend__val.npz\n"}
+,{"stream_name":"stdout","time":1852.205936522,"data":"прогноз гибрида ВКР test: точек 2041, /kaggle/input/notebooks/nikitospevindos/16-hybrid-kaggle-ipynb/results/preds/hyb_blend__test.npz\n"}
+,{"stream_name":"stdout","time":1860.510892892,"data":"сутки: {'train': 1157, 'val': 91, 'test': 86, 'holdout': 35} | период ['2023-01-01', '2026-10-29']\n"}
+,{"stream_name":"stdout","time":1860.510950026,"data":"время оборота, ч: {'1·2·3': 2.6600000858306885, '4·5·6': 2.25, '7': 1.5, 'A·C·E': 2.5, 'B·D·F·M': 2.7100000381469727, 'N·Q·R·W': 2.7699999809265137, 'J·Z·L': 1.6699999570846558, 'G': 1.399999976158142}\n"}
+,{"stream_name":"stdout","time":1860.51098265,"data":"парк (поездов в работе): 585.2 | бюджет буднего дня, поездо-ч: 8628\n"}
+,{"stream_name":"stdout","time":1860.633245739,"data":"  часть  группа  сутки  входов в сутки (медиана)  пик часа (95-й перц.)  поездов в час (среднее)  поездов в час (макс.)  κ·спрос/поезд, пик 95%\n"}
+,{"stream_name":"stdout","time":1860.633300416,"data":"  train   1·2·3   1157                    609127                  58202                     20.6                   35.0                    0.82\n"}
+,{"stream_name":"stdout","time":1860.633307841,"data":"  train   4·5·6   1157                    628069                  62357                     23.2                   43.0                    0.79\n"}
+,{"stream_name":"stdout","time":1860.633312886,"data":"  train       7   1157                    282622                  28873                     11.6                   26.5                    1.03\n"}
+,{"stream_name":"stdout","time":1860.633317939,"data":"  train   A·C·E   1157                    491300                  46082                     18.7                   33.5                    0.81\n"}
+,{"stream_name":"stdout","time":1860.633323138,"data":"  train B·D·F·M   1157                    698658                  66457                     21.5                   39.0                    0.81\n"}
+,{"stream_name":"stdout","time":1860.633328081,"data":"  train N·Q·R·W   1157                    605322                  57030                     20.5                   34.0                    0.85\n"}
+,{"stream_name":"stdout","time":1860.633332631,"data":"  train   J·Z·L   1157                    274084                  24447                     16.3                   31.5                    0.94\n"}
+,{"stream_name":"stdout","time":1860.633337203,"data":"  train       G   1157                     60090                   5682                      6.0                   11.0                    0.72\n"}
+,{"stream_name":"stdout","time":1860.633341836,"data":"    val   1·2·3     91                    680052                  62336                     20.9                   69.0                    0.84\n"}
+,{"stream_name":"stdout","time":1860.633346577,"data":"    val   4·5·6     91                    701089                  65869                     23.1                   83.0                    0.83\n"}
+,{"stream_name":"stdout","time":1860.633350939,"data":"    val       7     91                    310134                  30713                     11.7                   53.0                    1.07\n"}
+,{"stream_name":"stdout","time":1860.633355292,"data":"    val   A·C·E     91                    562171                  49788                     18.9                   63.0                    0.88\n"}
+,{"stream_name":"stdout","time":1860.633361504,"data":"    val B·D·F·M     91                    793704                  70568                     21.7                   76.0                    0.89\n"}
+,{"stream_name":"stdout","time":1860.633366159,"data":"    val N·Q·R·W     91                    677183                  59648                     20.4                   65.0                    0.94\n"}
+,{"stream_name":"stdout","time":1860.633371566,"data":"    val   J·Z·L     91                    319064                  27054                     17.0                   61.0                    0.99\n"}
+,{"stream_name":"stdout","time":1860.633376363,"data":"    val       G     91                     68479                   6117                      6.0                   17.0                    0.78\n"}
+,{"stream_name":"stdout","time":1860.633381862,"data":"   test   1·2·3     86                    618357                  58985                     20.2                   34.5                    0.83\n"}
+,{"stream_name":"stdout","time":1860.633401844,"data":"   test   4·5·6     86                    634579                  63230                     22.9                   42.5                    0.79\n"}
+,{"stream_name":"stdout","time":1860.633406774,"data":"   test       7     86                    303462                  28340                     11.6                   26.5                    1.08\n"}
+,{"stream_name":"stdout","time":1860.633412075,"data":"   test   A·C·E     86                    531315                  48416                     18.5                   45.5                    0.87\n"}
+,{"stream_name":"stdout","time":1860.633416578,"data":"   test B·D·F·M     86                    739529                  68815                     21.2                   37.5                    0.84\n"}
+,{"stream_name":"stdout","time":1860.633421515,"data":"   test N·Q·R·W     86                    628025                  59149                     20.0                   33.5                    0.89\n"}
+,{"stream_name":"stdout","time":1860.633426477,"data":"   test   J·Z·L     86                    301232                  26263                     16.5                   30.5                    0.95\n"}
+,{"stream_name":"stdout","time":1860.633431632,"data":"   test       G     86                     61729                   5712                      5.9                   11.0                    0.73\n"}
+,{"stream_name":"stdout","time":1860.633436606,"data":"holdout   1·2·3     35                    724418                  66568                     20.5                   34.5                    0.95\n"}
+,{"stream_name":"stdout","time":1860.633441869,"data":"holdout   4·5·6     35                    726757                  71476                     23.1                   42.5                    0.88\n"}
+,{"stream_name":"stdout","time":1860.633447709,"data":"holdout       7     35                    315968                  33150                     11.6                   26.5                    1.12\n"}
+,{"stream_name":"stdout","time":1860.633453102,"data":"holdout   A·C·E     35                    594827                  52811                     18.5                   31.0                    0.95\n"}
+,{"stream_name":"stdout","time":1860.633458048,"data":"holdout B·D·F·M     35                    841468                  74420                     21.3                   37.5                    0.96\n"}
+,{"stream_name":"stdout","time":1860.633463281,"data":"holdout N·Q·R·W     35                    709421                  63181                     20.2                   32.5                    1.03\n"}
+,{"stream_name":"stdout","time":1860.633468599,"data":"holdout   J·Z·L     35                    347858                  28159                     16.4                   29.5                    1.07\n"}
+,{"stream_name":"stdout","time":1860.633473949,"data":"holdout       G     35                     74902                   6509                      5.9                    8.5                    0.83\n"}
+,{"stream_name":"stdout","time":1860.633479512,"data":"часть             holdout    test   train     val\n"}
+,{"stream_name":"stdout","time":1860.633484656,"data":"прогноз горизонт                                 \n"}
+,{"stream_name":"stdout","time":1860.633489851,"data":"hyb     all           NaN  0.0524     NaN  0.0424\n"}
+,{"stream_name":"stdout","time":1860.633494886,"data":"        h1            NaN  0.0413     NaN  0.0369\n"}
+,{"stream_name":"stdout","time":1860.633499679,"data":"m4w     all        0.0592  0.1087  0.0880  0.0794\n"}
+,{"stream_name":"stdout","time":1860.633504495,"data":"        h1         0.0579  0.1064  0.0894  0.0810\n"}
+,{"stream_name":"stdout","time":1860.633509447,"data":"norm    all        0.0528  0.0859  0.0713  0.0728\n"}
+,{"stream_name":"stdout","time":1860.633518334,"data":"        h1         0.0321  0.0522  0.0484  0.0453\n"}
+,{"stream_name":"stdout","time":1860.633523414,"data":"         holiday  weekend  planned_works  city_event  schedule_filled\n"}
+,{"stream_name":"stdout","time":1860.633529819,"data":"part                                                                 \n"}
+,{"stream_name":"stdout","time":1860.633534818,"data":"holdout    0.029    0.286          0.000       0.000            1.000\n"}
+,{"stream_name":"stdout","time":1860.633539909,"data":"test       0.035    0.279          0.256       0.023            0.558\n"}
+,{"stream_name":"stdout","time":1860.633544908,"data":"train      0.038    0.285          0.423       0.013            0.000\n"}
+,{"stream_name":"stdout","time":1860.633550008,"data":"val        0.022    0.286          0.385       0.088            0.000\n"}
+,{"stream_name":"stdout","time":1860.633555133,"data":"история    0.103    0.310          0.586       0.000            0.000\n"}
+,{"stream_name":"stdout","time":1860.68485337,"data":"# ЛР3. Паспорт данных\n"}
+,{"stream_name":"stdout","time":1860.684904605,"data":"\n"}
+,{"stream_name":"stdout","time":1860.684909426,"data":"Сгенерировано ноутбуком lab3_00_data 06.11.2026.\n"}
+,{"stream_name":"stdout","time":1860.684918031,"data":"\n"}
+,{"stream_name":"stdout","time":1860.684921217,"data":"## 1. Источники\n"}
+,{"stream_name":"stdout","time":1860.684924393,"data":"\n"}
+,{"stream_name":"stdout","time":1860.684927384,"data":"| источник | что берём | период |\n"}
+,{"stream_name":"stdout","time":1860.684930919,"data":"| --- | --- | --- |\n"}
+,{"stream_name":"stdout","time":1860.684934037,"data":"| датасет ВКР `VKR_PM232_Pevin_MTA` (MTA Subway Hourly Ridership `wujg-7c2s`, `5wq4-mkjj`) | почасовые входы 424 комплексов, календарь | 01.01.2023 – 24.09.2026 |\n"}
+,{"stream_name":"stdout","time":1860.684938485,"data":"| MTA Subway Hourly Ridership `5wq4-mkjj` (скачано здесь) | свежие входы для отложенного периода | 25.09.2026 – 29.10.2026 |\n"}
+,{"stream_name":"stdout","time":1860.684942252,"data":"| MTA Subway Schedules 2023–2026 (`7pnn-mafy`, `ebrw-j62c`, `q9nv-uegs`, `g8es-h7gb`) | отправления с начальной станции по часам, время рейса | 2023–2026 |\n"}
+,{"stream_name":"stdout","time":1860.684947279,"data":"| гибрид ВКР `hyb_blend` (вывод ноутбука 16 ВКР) | прогноз на 24 ч по станциям | val, test |\n"}
+,{"stream_name":"stdout","time":1860.684951026,"data":"\n"}
+,{"stream_name":"stdout","time":1860.684953837,"data":"## 2. Разбиение (строго по времени)\n"}
+,{"stream_name":"stdout","time":1860.684957062,"data":"\n"}
+,{"stream_name":"stdout","time":1860.68495992,"data":"| часть | сутки |\n"}
+,{"stream_name":"stdout","time":1860.684962904,"data":"| --- | --- |\n"}
+,{"stream_name":"stdout","time":1860.684965801,"data":"| train | 1157 |\n"}
+,{"stream_name":"stdout","time":1860.684968625,"data":"| val | 91 |\n"}
+,{"stream_name":"stdout","time":1860.684971544,"data":"| test | 86 |\n"}
+,{"stream_name":"stdout","time":1860.68497441,"data":"| holdout | 35 |\n"}
+,{"stream_name":"stdout","time":1860.684977172,"data":"\n"}
+,{"stream_name":"stdout","time":1860.684979905,"data":"Период массивов: 2023-01-01 – 2026-10-29; первые 4 недели — только история для прогноза.\n"}
+,{"stream_name":"stdout","time":1860.684983612,"data":"\n"}
+,{"stream_name":"stdout","time":1860.685006267,"data":"## 3. Описательная статистика по группам линий\n"}
+,{"stream_name":"stdout","time":1860.685010403,"data":"\n"}
+,{"stream_name":"stdout","time":1860.68501486,"data":"| часть | группа | сутки | входов в сутки (медиана) | пик часа (95-й перц.) | поездов в час (среднее) | поездов в час (макс.) | κ·спрос/поезд, пик 95% |\n"}
+,{"stream_name":"stdout","time":1860.685021501,"data":"| --- | --- | --- | --- | --- | --- | --- | --- |\n"}
+,{"stream_name":"stdout","time":1860.685026092,"data":"| train | 1·2·3 | 1157 | 609127 | 58202 | 20.6 | 35 | 0.82 |\n"}
+,{"stream_name":"stdout","time":1860.685030615,"data":"| train | 4·5·6 | 1157 | 628069 | 62357 | 23.2 | 43 | 0.79 |\n"}
+,{"stream_name":"stdout","time":1860.685034779,"data":"| train | 7 | 1157 | 282622 | 28873 | 11.6 | 26.5 | 1.03 |\n"}
+,{"stream_name":"stdout","time":1860.685039322,"data":"| train | A·C·E | 1157 | 491300 | 46082 | 18.7 | 33.5 | 0.81 |\n"}
+,{"stream_name":"stdout","time":1860.685043651,"data":"| train | B·D·F·M | 1157 | 698658 | 66457 | 21.5 | 39 | 0.81 |\n"}
+,{"stream_name":"stdout","time":1860.68504929,"data":"| train | N·Q·R·W | 1157 | 605322 | 57030 | 20.5 | 34 | 0.85 |\n"}
+,{"stream_name":"stdout","time":1860.685056325,"data":"| train | J·Z·L | 1157 | 274084 | 24447 | 16.3 | 31.5 | 0.94 |\n"}
+,{"stream_name":"stdout","time":1860.685061257,"data":"| train | G | 1157 | 60090 | 5682 | 6 | 11 | 0.72 |\n"}
+,{"stream_name":"stdout","time":1860.685065499,"data":"| val | 1·2·3 | 91 | 680052 | 62336 | 20.9 | 69 | 0.84 |\n"}
+,{"stream_name":"stdout","time":1860.685070087,"data":"| val | 4·5·6 | 91 | 701089 | 65869 | 23.1 | 83 | 0.83 |\n"}
+,{"stream_name":"stdout","time":1860.685074572,"data":"| val | 7 | 91 | 310134 | 30713 | 11.7 | 53 | 1.07 |\n"}
+,{"stream_name":"stdout","time":1860.685078884,"data":"| val | A·C·E | 91 | 562171 | 49788 | 18.9 | 63 | 0.88 |\n"}
+,{"stream_name":"stdout","time":1860.68508336,"data":"| val | B·D·F·M | 91 | 793704 | 70568 | 21.7 | 76 | 0.89 |\n"}
+,{"stream_name":"stdout","time":1860.68508759,"data":"| val | N·Q·R·W | 91 | 677183 | 59648 | 20.4 | 65 | 0.94 |\n"}
+,{"stream_name":"stdout","time":1860.685092149,"data":"| val | J·Z·L | 91 | 319064 | 27054 | 17 | 61 | 0.99 |\n"}
+,{"stream_name":"stdout","time":1860.685096509,"data":"| val | G | 91 | 68479 | 6117 | 6 | 17 | 0.78 |\n"}
+,{"stream_name":"stdout","time":1860.685101025,"data":"| test | 1·2·3 | 86 | 618357 | 58985 | 20.2 | 34.5 | 0.83 |\n"}
+,{"stream_name":"stdout","time":1860.685105725,"data":"| test | 4·5·6 | 86 | 634579 | 63230 | 22.9 | 42.5 | 0.79 |\n"}
+,{"stream_name":"stdout","time":1860.685110424,"data":"| test | 7 | 86 | 303462 | 28340 | 11.6 | 26.5 | 1.08 |\n"}
+,{"stream_name":"stdout","time":1860.685114995,"data":"| test | A·C·E | 86 | 531315 | 48416 | 18.5 | 45.5 | 0.87 |\n"}
+,{"stream_name":"stdout","time":1860.685119782,"data":"| test | B·D·F·M | 86 | 739529 | 68815 | 21.2 | 37.5 | 0.84 |\n"}
+,{"stream_name":"stdout","time":1860.685124356,"data":"| test | N·Q·R·W | 86 | 628025 | 59149 | 20 | 33.5 | 0.89 |\n"}
+,{"stream_name":"stdout","time":1860.685128995,"data":"| test | J·Z·L | 86 | 301232 | 26263 | 16.5 | 30.5 | 0.95 |\n"}
+,{"stream_name":"stdout","time":1860.685133635,"data":"| test | G | 86 | 61729 | 5712 | 5.9 | 11 | 0.73 |\n"}
+,{"stream_name":"stdout","time":1860.685136722,"data":"| holdout | 1·2·3 | 35 | 724418 | 66568 | 20.5 | 34.5 | 0.95 |\n"}
+,{"stream_name":"stdout","time":1860.685139825,"data":"| holdout | 4·5·6 | 35 | 726757 | 71476 | 23.1 | 42.5 | 0.88 |\n"}
+,{"stream_name":"stdout","time":1860.685143042,"data":"| holdout | 7 | 35 | 315968 | 33150 | 11.6 | 26.5 | 1.12 |\n"}
+,{"stream_name":"stdout","time":1860.685152712,"data":"| holdout | A·C·E | 35 | 594827 | 52811 | 18.5 | 31 | 0.95 |\n"}
+,{"stream_name":"stdout","time":1860.685157259,"data":"| holdout | B·D·F·M | 35 | 841468 | 74420 | 21.3 | 37.5 | 0.96 |\n"}
+,{"stream_name":"stdout","time":1860.685161652,"data":"| holdout | N·Q·R·W | 35 | 709421 | 63181 | 20.2 | 32.5 | 1.03 |\n"}
+,{"stream_name":"stdout","time":1860.685166051,"data":"| holdout | J·Z·L | 35 | 347858 | 28159 | 16.4 | 29.5 | 1.07 |\n"}
+,{"stream_name":"stdout","time":1860.685170313,"data":"| holdout | G | 35 | 74902 | 6509 | 5.9 | 8.5 | 0.83 |\n"}
+,{"stream_name":"stdout","time":1860.685174842,"data":"\n"}
+,{"stream_name":"stdout","time":1860.685178934,"data":"## 4. Калибровка и ресурсы\n"}
+,{"stream_name":"stdout","time":1860.685183419,"data":"\n"}
+,{"stream_name":"stdout","time":1860.685187779,"data":"- Час пик (будни, train) по группам: {'1·2·3': 17, '4·5·6': 17, '7': 8, 'A·C·E': 17, 'B·D·F·M': 17, 'N·Q·R·W': 17, 'J·Z·L': 8, 'G': 8}\n"}
+,{"stream_name":"stdout","time":1860.685192962,"data":"- Медианный спрос в час пик: {'1·2·3': 66286.0, '4·5·6': 72511.0, '7': 31479.0, 'A·C·E': 53349.0, 'B·D·F·M': 75138.0, 'N·Q·R·W': 64911.0, 'J·Z·L': 29779.0, 'G': 7711.0}\n"}
+,{"stream_name":"stdout","time":1860.68519884,"data":"- Поездов в час пик по расписанию: {'1·2·3': 32.0, '4·5·6': 38.5, '7': 26.5, 'A·C·E': 29.5, 'B·D·F·M': 33.0, 'N·Q·R·W': 31.5, 'J·Z·L': 29.5, 'G': 8.0}\n"}
+,{"stream_name":"stdout","time":1860.685208587,"data":"- Время оборота, ч: {'1·2·3': 2.6600000858306885, '4·5·6': 2.25, '7': 1.5, 'A·C·E': 2.5, 'B·D·F·M': 2.7100000381469727, 'N·Q·R·W': 2.7699999809265137, 'J·Z·L': 1.6699999570846558, 'G': 1.399999976158142} ({'1·2·3': 'расписание: 3 маршрутов, 31693 рейсов', '4·5·6': 'расписание: 3 маршрутов, 36048 рейсов', '7': 'расписание: 1 маршрутов, 16833 рейсов', 'A·C·E': 'расписание: 3 маршрутов, 27584 рейсов', 'B·D·F·M': 'расписание: 4 маршрутов, 32074 рейсов', 'N·Q·R·W': 'расписание: 3 маршрутов, 29724 рейсов', 'J·Z·L': 'расписание: 2 маршрутов, 24375 рейсов', 'G': 'расписание: 1 маршрутов, 9057 рейсов'})\n"}
+,{"stream_name":"stdout","time":1860.68522213,"data":"- Парк (поездов в работе одновременно): 585.2; бюджет буднего дня: 8628 поездо-ч\n"}
+,{"stream_name":"stdout","time":1860.68522759,"data":"\n"}
+,{"stream_name":"stdout","time":1860.685231721,"data":"## 5. Качество прогнозов спроса групп (WAPE, группа × час)\n"}
+,{"stream_name":"stdout","time":1860.685237456,"data":"\n"}
+,{"stream_name":"stdout","time":1860.68524156,"data":"| прогноз | горизонт | holdout | test | train | val |\n"}
+,{"stream_name":"stdout","time":1860.685246723,"data":"| --- | --- | --- | --- | --- | --- |\n"}
+,{"stream_name":"stdout","time":1860.685251518,"data":"| hyb | all | nan | 0.0524 | nan | 0.0424 |\n"}
+,{"stream_name":"stdout","time":1860.685255588,"data":"| hyb | h1 | nan | 0.0413 | nan | 0.0369 |\n"}
+,{"stream_name":"stdout","time":1860.685259615,"data":"| m4w | all | 0.0592 | 0.1087 | 0.088 | 0.0794 |\n"}
+,{"stream_name":"stdout","time":1860.685263681,"data":"| m4w | h1 | 0.0579 | 0.1064 | 0.0894 | 0.081 |\n"}
+,{"stream_name":"stdout","time":1860.685268355,"data":"| norm | all | 0.0528 | 0.0859 | 0.0713 | 0.0728 |\n"}
+,{"stream_name":"stdout","time":1860.685272804,"data":"| norm | h1 | 0.0321 | 0.0522 | 0.0484 | 0.0453 |\n"}
+,{"stream_name":"stdout","time":1860.685288748,"data":"\n"}
+,{"stream_name":"stdout","time":1886.73619531,"data":"  политика    награда  выигрыш, %  перерасход max  поездо-ч, % бюджета\n"}
+,{"stream_name":"stdout","time":1886.736239346,"data":"  schedule -24.000000    0.000000             0.0           100.000000\n"}
+,{"stream_name":"stdout","time":1886.736246792,"data":"   mpc_m4w -19.546000   19.521999             0.0            99.822998\n"}
+,{"stream_name":"stdout","time":1886.736252317,"data":"  mpc_norm -19.384001   20.188000             0.0            99.820999\n"}
+,{"stream_name":"stdout","time":1886.736257314,"data":"mpc_oracle -19.118000   21.299999             0.0            99.972000\n"}
+,{"stream_name":"stdout","time":1886.736262765,"data":"готово за 31.2 мин\n"}
+,{"stream_name":"stderr","time":1892.167347711,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1892.1674009,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1892.403549364,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1892.403594294,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1893.411877673,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1893.550280188,"data":"[NbConvertApp] Writing 178434 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1897.147253292,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1898.438982066,"data":"[NbConvertApp] Writing 1023179 bytes to __results__.html\n"}
+]

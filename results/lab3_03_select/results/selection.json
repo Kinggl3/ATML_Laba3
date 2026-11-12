@@ -1,0 +1,101 @@
+{
+ "choice": "ippo",
+ "reason": "максимум сводного балла",
+ "time": "2026-11-06T19:47:47.638119",
+ "ranking": [
+  {
+   "policy": "ippo",
+   "score": 0.8777629419446304,
+   "gain": 0.18316996097564697,
+   "ci_lo": 0.1737375147640705,
+   "admissible": false
+  },
+  {
+   "policy": "qmix",
+   "score": 0.870357592218189,
+   "gain": 0.17341871559619904,
+   "ci_lo": 0.16477759070694448,
+   "admissible": false
+  },
+  {
+   "policy": "maddpg",
+   "score": 0.837095838570449,
+   "gain": 0.16546893119812012,
+   "ci_lo": 0.15646385140717028,
+   "admissible": false
+  },
+  {
+   "policy": "mappo",
+   "score": 0.8350362754161168,
+   "gain": 0.18167713284492493,
+   "ci_lo": 0.17228855043649674,
+   "admissible": false
+  },
+  {
+   "policy": "mat",
+   "score": 0.7115250277116117,
+   "gain": 0.15661580860614777,
+   "ci_lo": 0.1444808602333069,
+   "admissible": false
+  },
+  {
+   "policy": "vdn",
+   "score": 0.6851736128759799,
+   "gain": 0.15918585658073425,
+   "ci_lo": 0.15038502775132656,
+   "admissible": false
+  },
+  {
+   "policy": "happo",
+   "score": 0.6064054945992325,
+   "gain": 0.14748705923557281,
+   "ci_lo": 0.11951532326638699,
+   "admissible": false
+  },
+  {
+   "policy": "coma",
+   "score": 0.11160291029075904,
+   "gain": 0.09956349432468414,
+   "ci_lo": 0.08248350527137518,
+   "admissible": false
+  }
+ ],
+ "ppo_score_vs_marl": [
+  {
+   "policy": "coma",
+   "score": 0.11126843158273916
+  },
+  {
+   "policy": "happo",
+   "score": 0.6064054945992325
+  },
+  {
+   "policy": "ippo",
+   "score": 0.8763596583187444
+  },
+  {
+   "policy": "maddpg",
+   "score": 0.8357441888534298
+  },
+  {
+   "policy": "mappo",
+   "score": 0.833651244897606
+  },
+  {
+   "policy": "mat",
+   "score": 0.710464018859691
+  },
+  {
+   "policy": "ppo",
+   "score": 0.8480845554585438
+  },
+  {
+   "policy": "qmix",
+   "score": 0.8690719034301556
+  },
+  {
+   "policy": "vdn",
+   "score": 0.6837322559248438
+  }
+ ]
+}
