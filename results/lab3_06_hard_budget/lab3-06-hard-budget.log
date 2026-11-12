@@ -1,0 +1,156 @@
+[{"stream_name":"stderr","time":8.249010112,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.249078856,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.249087239,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.249092429,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.997751448,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.997808092,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.997815717,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.997820829,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":34.577932557,"data":"        среда политика  выигрыш  перерасход max\n"}
+,{"stream_name":"stdout","time":34.578001169,"data":"     MetroEnv schedule  0.00000             0.0\n"}
+,{"stream_name":"stdout","time":34.578008397,"data":"     MetroEnv mpc_norm  0.20188             0.0\n"}
+,{"stream_name":"stdout","time":34.578012835,"data":"HardBudgetEnv schedule -0.00000             0.0\n"}
+,{"stream_name":"stdout","time":34.578017288,"data":"HardBudgetEnv mpc_norm  0.20188             0.0\n"}
+,{"stream_name":"stdout","time":34.778548005,"data":"чекпойнтов: 70\n"}
+,{"stream_name":"stdout","time":41.236310667,"data":"  1/70 main__coma__s0 25 c\n"}
+,{"stream_name":"stdout","time":44.789211875,"data":"  11/70 main__ippo__s0 28 c\n"}
+,{"stream_name":"stdout","time":49.303113368,"data":"  21/70 main__mat__s0 33 c\n"}
+,{"stream_name":"stdout","time":58.371784913,"data":"  31/70 main__maddpg__s0 42 c\n"}
+,{"stream_name":"stdout","time":61.320205768,"data":"  41/70 main__vdn__s0 45 c\n"}
+,{"stream_name":"stdout","time":64.453598947,"data":"  51/70 abl__A2_no_msg__ippo__s0 48 c\n"}
+,{"stream_name":"stdout","time":67.42862113,"data":"  61/70 abl__A4_no_fc__ippo__s0 51 c\n"}
+,{"stream_name":"stdout","time":164.481259125,"data":"выбор при жёстком бюджете: mappo — более простой, разница выигрыша с qmix незначима (+0.02 п.п., ДИ [-0.28; +0.33])\n"}
+,{"stream_name":"stdout","time":164.481312339,"data":"policy  score   gain  ci_lo  viol_budget  admissible\n"}
+,{"stream_name":"stdout","time":164.481319699,"data":"  qmix 0.9067 0.1677 0.1591          0.0        True\n"}
+,{"stream_name":"stdout","time":164.481325484,"data":"  ippo 0.8891 0.1715 0.1623          0.0        True\n"}
+,{"stream_name":"stdout","time":164.481331135,"data":" mappo 0.8175 0.1675 0.1575          0.0        True\n"}
+,{"stream_name":"stdout","time":164.481356187,"data":"   mat 0.7749 0.1521 0.1402          0.0        True\n"}
+,{"stream_name":"stdout","time":164.481362089,"data":"maddpg 0.7584 0.1566 0.1460          0.0        True\n"}
+,{"stream_name":"stdout","time":164.48136709,"data":"   vdn 0.7263 0.1537 0.1449          0.0        True\n"}
+,{"stream_name":"stdout","time":164.481372282,"data":" happo 0.4708 0.1305 0.1069          0.0        True\n"}
+,{"stream_name":"stdout","time":164.481377564,"data":"  coma 0.1020 0.0862 0.0685          0.0        True\n"}
+,{"stream_name":"stdout","time":164.958816926,"data":"                     сравнение     A          B  diff    lo    hi     p  days\n"}
+,{"stream_name":"stdout","time":164.958874926,"data":"              H1: MAPPO − IPPO mappo       ippo -0.45 -0.65 -0.24 0.000    86\n"}
+,{"stream_name":"stdout","time":164.958882343,"data":"           H3: выбранный − PPO mappo        ppo  0.30  0.07  0.53 0.009    86\n"}
+,{"stream_name":"stdout","time":164.958887612,"data":"H7: выбранный − MPC norm_level mappo   mpc_norm -3.49 -4.12 -2.79 0.000    86\n"}
+,{"stream_name":"stdout","time":164.958892719,"data":"     H7: IPPO − MPC norm_level  ippo   mpc_norm -3.05 -3.73 -2.36 0.000    86\n"}
+,{"stream_name":"stdout","time":164.958897374,"data":"            выбранный − оракул mappo mpc_oracle -4.91 -5.45 -4.37 0.000    86\n"}
+,{"stream_name":"stdout","time":164.958902427,"data":"          PPO − MPC norm_level   ppo   mpc_norm -3.80 -4.47 -3.09 0.000    86\n"}
+,{"stream_name":"stdout","time":165.311823871,"data":"     вариант  выигрыш, %        разница, п.п.     p  урезано лимитом парка или бюджета, % ч\n"}
+,{"stream_name":"stdout","time":165.311872983,"data":" A1_no_coord   17.610001 +1.47 [+1.26; +1.69] 0.000                               14.000000\n"}
+,{"stream_name":"stdout","time":165.311879706,"data":"   A2_no_msg   16.030001 -0.11 [-0.27; +0.04] 0.156                               41.400002\n"}
+,{"stream_name":"stdout","time":165.311884631,"data":"A3_no_switch   16.370001 +0.23 [+0.01; +0.41] 0.034                               43.900002\n"}
+,{"stream_name":"stdout","time":165.311890021,"data":"    A4_no_fc   16.170000 +0.02 [-0.15; +0.18] 0.767                               46.599998\n"}
+,{"stream_name":"stdout","time":165.311894728,"data":"A5_oracle_fc   16.469999 +0.33 [+0.12; +0.51] 0.002                               45.099998\n"}
+,{"stream_name":"stdout","time":168.424585161,"data":"                            выигрыш, мягкий бюджет, %  выигрыш, жёсткий бюджет, %  перерасход \u003e 0,5%, мягкий, % сут  перерасход \u003e 0,5%, жёсткий, % сут  поездо-ч, % бюджета (жёсткий)\n"}
+,{"stream_name":"stdout","time":168.424625539,"data":"IPPO                                        17.530001                   16.139999                             27.91                                0.0                      99.629997\n"}
+,{"stream_name":"stdout","time":168.424631811,"data":"MAPPO                                       17.299999                   15.700000                             31.40                                0.0                      99.699997\n"}
+,{"stream_name":"stdout","time":168.424637101,"data":"HAPPO                                       14.050000                   11.750000                             47.67                                0.0                      99.889999\n"}
+,{"stream_name":"stdout","time":168.424642255,"data":"MAT                                         15.050000                   14.080000                             16.28                                0.0                      99.610001\n"}
+,{"stream_name":"stdout","time":168.424647197,"data":"COMA                                         9.400000                    7.470000                             46.51                                0.0                      99.680000\n"}
+,{"stream_name":"stdout","time":168.424652327,"data":"MADDPG                                      15.590000                   14.430000                             10.47                                0.0                      99.930000\n"}
+,{"stream_name":"stdout","time":168.424657251,"data":"VDN                                         14.640000                   14.000000                              6.98                                0.0                      99.570000\n"}
+,{"stream_name":"stdout","time":168.424661821,"data":"QMIX                                        16.290001                   15.620000                              8.14                                0.0                      99.660004\n"}
+,{"stream_name":"stdout","time":168.424679423,"data":"PPO (один агент)                            16.459999                   15.390000                             20.93                                0.0                      99.660004\n"}
+,{"stream_name":"stdout","time":168.424687226,"data":"Расписание MTA                                    NaN                   -0.000000                               NaN                                0.0                     100.000000\n"}
+,{"stream_name":"stdout","time":168.424692595,"data":"MPC: медиана 4 нед.                               NaN                   18.270000                               NaN                                0.0                      99.949997\n"}
+,{"stream_name":"stdout","time":168.424697421,"data":"MPC: norm_level                                   NaN                   19.190001                               NaN                                0.0                      99.949997\n"}
+,{"stream_name":"stdout","time":168.424701993,"data":"MPC: гибрид ВКР                                   NaN                   19.750000                               NaN                                0.0                      99.959999\n"}
+,{"stream_name":"stdout","time":168.424707503,"data":"Оракул (идеальный прогноз)                        NaN                   20.610001                               NaN                                0.0                      99.970001\n"}
+,{"stream_name":"stdout","time":168.424712753,"data":"# ЛР3. Дополнительная оценка: жёсткий бюджет (lab3_06)\n"}
+,{"stream_name":"stdout","time":168.424717278,"data":"\n"}
+,{"stream_name":"stdout","time":168.424721331,"data":"Те же чекпойнты, что в основной части; защитный слой не даёт выйти за суточный бюджет поездо-часов. Расписание и MPC слой не меняет.\n"}
+,{"stream_name":"stdout","time":168.424727378,"data":"\n"}
+,{"stream_name":"stdout","time":168.424731287,"data":"Выбор по тому же правилу (val): **MAPPO** — более простой, разница выигрыша с qmix незначима (+0.02 п.п., ДИ [-0.28; +0.33]). В основной части: IPPO.\n"}
+,{"stream_name":"stdout","time":168.424737325,"data":"\n"}
+,{"stream_name":"stdout","time":168.424741182,"data":"## Таблица Б1. Test при жёстком бюджете\n"}
+,{"stream_name":"stdout","time":168.424746218,"data":"\n"}
+,{"stream_name":"stdout","time":168.424750487,"data":"| Алгоритм | Выигрыш (95% ДИ) | IR | CVaR 5% | Худшие сутки, % | Переполнение, % | Оборот, % | Перерасход, % сут | Урезано лимитом парка или бюджета, % ч | Пасс.-ч/сутки | По seed |\n"}
+,{"stream_name":"stdout","time":168.424757191,"data":"| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n"}
+,{"stream_name":"stdout","time":168.424761411,"data":"| IPPO | +16.14% [+15.21; +16.97] | 4.52 | 5.41 | -0.49 | 0.79 | 8.1 | 0 | 41.4 | 22996 | +16.14 ± 0.53 |\n"}
+,{"stream_name":"stdout","time":168.424765521,"data":"| MAPPO | +15.70% [+14.86; +16.41] | 4.19 | 4.97 | 0.49 | 0.83 | 8.1 | 0 | 63.7 | 22361 | +15.70 ± 0.42 |\n"}
+,{"stream_name":"stdout","time":168.424770638,"data":"| HAPPO | +11.75% [+9.48; +13.37] | 2.68 | 1.37 | -1.15 | 1.51 | 6.8 | 0 | 79.1 | 16734 | +11.75 ± 2.07 |\n"}
+,{"stream_name":"stdout","time":168.424775253,"data":"| MAT | +14.08% [+12.46; +15.36] | 3.75 | 2.47 | -0.97 | 0.86 | 7.9 | 0 | 67.9 | 20064 | +14.08 ± 1.40 |\n"}
+,{"stream_name":"stdout","time":168.424784275,"data":"| COMA | +7.47% [+6.09; +9.39] | 1.86 | -1.95 | -9.57 | 1.76 | 6.3 | 0 | 59.9 | 10646 | +7.47 ± 1.82 |\n"}
+,{"stream_name":"stdout","time":168.424788919,"data":"| MADDPG | +14.43% [+13.38; +15.38] | 3.23 | 1.69 | -3.7 | 0.89 | 9 | 0 | 52.3 | 20554 | +14.43 ± 0.55 |\n"}
+,{"stream_name":"stdout","time":168.424793691,"data":"| VDN | +14.00% [+12.85; +14.90] | 3.46 | 1.84 | -5.76 | 0.91 | 10.4 | 0 | 61.2 | 19948 | +14.00 ± 0.35 |\n"}
+,{"stream_name":"stdout","time":168.424798559,"data":"| QMIX | +15.62% [+14.56; +16.41] | 4.15 | 4.06 | -2.65 | 0.58 | 9.2 | 0 | 48 | 22254 | +15.62 ± 0.33 |\n"}
+,{"stream_name":"stdout","time":168.424803091,"data":"| PPO (один агент) | +15.39% [+14.60; +16.04] | 4.08 | 4.78 | 2.46 | 0.9 | 8.8 | 0 | 70.8 | 21929 | +15.39 ± 0.25 |\n"}
+,{"stream_name":"stdout","time":168.424808034,"data":"| Расписание MTA | -0.00% [-0.00; +0.00] | -0.03 | -0 | -0 | 4.78 | 0 | 0 | 0 | 0 | — |\n"}
+,{"stream_name":"stdout","time":168.424812974,"data":"| MPC: медиана 4 нед. | +18.27% [+17.22; +19.19] | 4.77 | 7.09 | -0.89 | 0.65 | 9.1 | 0 | 0 | 26032 | — |\n"}
+,{"stream_name":"stdout","time":168.424818104,"data":"| MPC: norm_level | +19.19% [+18.24; +19.99] | 5.37 | 8.86 | -0.89 | 0.56 | 9.1 | 0 | 0 | 27335 | — |\n"}
+,{"stream_name":"stdout","time":168.424822511,"data":"| MPC: гибрид ВКР | +19.75% [+18.75; +20.46] | 5.78 | 9.59 | -0.11 | 0.75 | 8.9 | 0 | 0 | 28136 | — |\n"}
+,{"stream_name":"stdout","time":168.424827401,"data":"| Оракул (идеальный прогноз) | +20.61% [+19.84; +21.18] | 7.51 | 13.57 | 11.21 | 0.46 | 9.2 | 0 | 0 | 29360 | — |\n"}
+,{"stream_name":"stdout","time":168.424832905,"data":"\n"}
+,{"stream_name":"stdout","time":168.424837367,"data":"## Таблица Б2. Мягкий против жёсткого бюджета (test)\n"}
+,{"stream_name":"stdout","time":168.424841883,"data":"\n"}
+,{"stream_name":"stdout","time":168.424846061,"data":"| Алгоритм | выигрыш, мягкий бюджет, % | выигрыш, жёсткий бюджет, % | перерасход \u003e 0,5%, мягкий, % сут | перерасход \u003e 0,5%, жёсткий, % сут | поездо-ч, % бюджета (жёсткий) |\n"}
+,{"stream_name":"stdout","time":168.424853051,"data":"| --- | --- | --- | --- | --- | --- |\n"}
+,{"stream_name":"stdout","time":168.424857205,"data":"| IPPO | 17.53 | 16.14 | 27.91 | 0 | 99.63 |\n"}
+,{"stream_name":"stdout","time":168.424861172,"data":"| MAPPO | 17.3 | 15.7 | 31.4 | 0 | 99.7 |\n"}
+,{"stream_name":"stdout","time":168.424865643,"data":"| HAPPO | 14.05 | 11.75 | 47.67 | 0 | 99.89 |\n"}
+,{"stream_name":"stdout","time":168.424870304,"data":"| MAT | 15.05 | 14.08 | 16.28 | 0 | 99.61 |\n"}
+,{"stream_name":"stdout","time":168.424874933,"data":"| COMA | 9.4 | 7.47 | 46.51 | 0 | 99.68 |\n"}
+,{"stream_name":"stdout","time":168.424879043,"data":"| MADDPG | 15.59 | 14.43 | 10.47 | 0 | 99.93 |\n"}
+,{"stream_name":"stdout","time":168.424883692,"data":"| VDN | 14.64 | 14 | 6.98 | 0 | 99.57 |\n"}
+,{"stream_name":"stdout","time":168.424889401,"data":"| QMIX | 16.29 | 15.62 | 8.14 | 0 | 99.66 |\n"}
+,{"stream_name":"stdout","time":168.424893994,"data":"| PPO (один агент) | 16.46 | 15.39 | 20.93 | 0 | 99.66 |\n"}
+,{"stream_name":"stdout","time":168.424898402,"data":"| Расписание MTA | nan | -0 | nan | 0 | 100 |\n"}
+,{"stream_name":"stdout","time":168.424902466,"data":"| MPC: медиана 4 нед. | nan | 18.27 | nan | 0 | 99.95 |\n"}
+,{"stream_name":"stdout","time":168.424906927,"data":"| MPC: norm_level | nan | 19.19 | nan | 0 | 99.95 |\n"}
+,{"stream_name":"stdout","time":168.424914729,"data":"| MPC: гибрид ВКР | nan | 19.75 | nan | 0 | 99.96 |\n"}
+,{"stream_name":"stdout","time":168.424918825,"data":"| Оракул (идеальный прогноз) | nan | 20.61 | nan | 0 | 99.97 |\n"}
+,{"stream_name":"stdout","time":168.424923439,"data":"\n"}
+,{"stream_name":"stdout","time":168.424927363,"data":"## Таблица Б3. Парные сравнения (test, жёсткий бюджет)\n"}
+,{"stream_name":"stdout","time":168.424932512,"data":"\n"}
+,{"stream_name":"stdout","time":168.424936834,"data":"| сравнение | A | B | diff | lo | hi | p | days |\n"}
+,{"stream_name":"stdout","time":168.424941285,"data":"| --- | --- | --- | --- | --- | --- | --- | --- |\n"}
+,{"stream_name":"stdout","time":168.424945673,"data":"| H1: MAPPO − IPPO | mappo | ippo | -0.45 | -0.65 | -0.24 | 0 | 86 |\n"}
+,{"stream_name":"stdout","time":168.424950509,"data":"| H3: выбранный − PPO | mappo | ppo | 0.3 | 0.07 | 0.53 | 0.009 | 86 |\n"}
+,{"stream_name":"stdout","time":168.424955232,"data":"| H7: выбранный − MPC norm_level | mappo | mpc_norm | -3.49 | -4.12 | -2.79 | 0 | 86 |\n"}
+,{"stream_name":"stdout","time":168.424959796,"data":"| H7: IPPO − MPC norm_level | ippo | mpc_norm | -3.05 | -3.73 | -2.36 | 0 | 86 |\n"}
+,{"stream_name":"stdout","time":168.424964678,"data":"| выбранный − оракул | mappo | mpc_oracle | -4.91 | -5.45 | -4.37 | 0 | 86 |\n"}
+,{"stream_name":"stdout","time":168.424969792,"data":"| PPO − MPC norm_level | ppo | mpc_norm | -3.8 | -4.47 | -3.09 | 0 | 86 |\n"}
+,{"stream_name":"stdout","time":168.424974456,"data":"\n"}
+,{"stream_name":"stdout","time":168.424978662,"data":"## Таблица Б4. Абляции IPPO при жёстком бюджете (test)\n"}
+,{"stream_name":"stdout","time":168.424983814,"data":"\n"}
+,{"stream_name":"stdout","time":168.424988069,"data":"| вариант | выигрыш, % | разница, п.п. | p | урезано лимитом парка или бюджета, % ч |\n"}
+,{"stream_name":"stdout","time":168.424993672,"data":"| --- | --- | --- | --- | --- |\n"}
+,{"stream_name":"stdout","time":168.424998317,"data":"| A1_no_coord | 17.61 | +1.47 [+1.26; +1.69] | 0 | 14 |\n"}
+,{"stream_name":"stdout","time":168.425002891,"data":"| A2_no_msg | 16.03 | -0.11 [-0.27; +0.04] | 0.156 | 41.4 |\n"}
+,{"stream_name":"stdout","time":168.425007349,"data":"| A3_no_switch | 16.37 | +0.23 [+0.01; +0.41] | 0.034 | 43.9 |\n"}
+,{"stream_name":"stdout","time":168.425011967,"data":"| A4_no_fc | 16.17 | +0.02 [-0.15; +0.18] | 0.767 | 46.6 |\n"}
+,{"stream_name":"stdout","time":168.425016428,"data":"| A5_oracle_fc | 16.47 | +0.33 [+0.12; +0.51] | 0.002 | 45.1 |\n"}
+,{"stream_name":"stdout","time":168.425020659,"data":"\n"}
+,{"stream_name":"stdout","time":168.425024666,"data":"## Таблица Б5. Статистический против экономического эффекта (test, жёсткий бюджет)\n"}
+,{"stream_name":"stdout","time":168.425031921,"data":"\n"}
+,{"stream_name":"stdout","time":168.425035335,"data":"| политика | выигрыш, % | статистически | экономически (≥ 1%, перерасход ≤ 0,5%) | пасс.-ч в сутки |\n"}
+,{"stream_name":"stdout","time":168.425039222,"data":"| --- | --- | --- | --- | --- |\n"}
+,{"stream_name":"stdout","time":168.425042805,"data":"| IPPO | 16.14 | значим | значим | 22996 |\n"}
+,{"stream_name":"stdout","time":168.425046039,"data":"| MAPPO | 15.7 | значим | значим | 22361 |\n"}
+,{"stream_name":"stdout","time":168.425049232,"data":"| PPO (один агент) | 15.39 | значим | значим | 21929 |\n"}
+,{"stream_name":"stdout","time":168.425055205,"data":"| MPC: norm_level | 19.19 | значим | значим | 27335 |\n"}
+,{"stream_name":"stdout","time":168.425058355,"data":"| MPC: гибрид ВКР | 19.75 | значим | значим | 28136 |\n"}
+,{"stream_name":"stdout","time":168.425061552,"data":"| Оракул (идеальный прогноз) | 20.61 | значим | значим | 29360 |\n"}
+,{"stream_name":"stdout","time":168.425064916,"data":"\n"}
+,{"stream_name":"stdout","time":168.425067649,"data":"## Таблица Б6. Holdout при жёстком бюджете\n"}
+,{"stream_name":"stdout","time":168.425070859,"data":"\n"}
+,{"stream_name":"stdout","time":168.425073664,"data":"| политика | выигрыш (95% ДИ) | IR | перерасход, % сут |\n"}
+,{"stream_name":"stdout","time":168.425077058,"data":"| --- | --- | --- | --- |\n"}
+,{"stream_name":"stdout","time":168.425079928,"data":"| IPPO | +16.71% [+15.67; +17.67] | 4.83 | 0 |\n"}
+,{"stream_name":"stdout","time":168.425082886,"data":"| MAPPO | +16.30% [+15.21; +17.31] | 4.44 | 0 |\n"}
+,{"stream_name":"stdout","time":168.425085738,"data":"| PPO (один агент) | +16.37% [+15.48; +17.20] | 4.6 | 0 |\n"}
+,{"stream_name":"stdout","time":168.425088841,"data":"| Расписание MTA | -0.00% [-0.00; +0.00] | -0.27 | 0 |\n"}
+,{"stream_name":"stdout","time":168.425091888,"data":"| MPC: norm_level | +19.75% [+18.46; +20.60] | 7.23 | 0 |\n"}
+,{"stream_name":"stdout","time":168.425094811,"data":"| Оракул (идеальный прогноз) | +20.30% [+19.26; +21.09] | 7.29 | 0 |\n"}
+,{"stream_name":"stdout","time":168.425097999,"data":"\n"}
+,{"stream_name":"stdout","time":168.425100764,"data":"готово за 2.5 мин\n"}
+,{"stream_name":"stderr","time":172.604579238,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":172.604618194,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":172.809264578,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":172.809318823,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":173.704186966,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":173.806593437,"data":"[NbConvertApp] Writing 32168 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":177.072586842,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":177.798806266,"data":"[NbConvertApp] Writing 362479 bytes to __results__.html\n"}
+]

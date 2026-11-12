@@ -1,0 +1,70 @@
+{
+ "choice": "mappo",
+ "reason": "более простой, разница выигрыша с qmix незначима (+0.02 п.п., ДИ [-0.28; +0.33])",
+ "ranking": [
+  {
+   "policy": "qmix",
+   "score": 0.9067421241760159,
+   "gain": 0.1677466630935669,
+   "ci_lo": 0.15911435447633265,
+   "viol_budget": 0.0,
+   "admissible": true
+  },
+  {
+   "policy": "ippo",
+   "score": 0.8891384187313713,
+   "gain": 0.1715172529220581,
+   "ci_lo": 0.16227307096123694,
+   "viol_budget": 0.0,
+   "admissible": true
+  },
+  {
+   "policy": "mappo",
+   "score": 0.8175083168682638,
+   "gain": 0.16751614212989807,
+   "ci_lo": 0.15747853107750415,
+   "viol_budget": 0.0,
+   "admissible": true
+  },
+  {
+   "policy": "mat",
+   "score": 0.7749434192894843,
+   "gain": 0.15211139619350433,
+   "ci_lo": 0.14018455147743225,
+   "viol_budget": 0.0,
+   "admissible": true
+  },
+  {
+   "policy": "maddpg",
+   "score": 0.7583655115173757,
+   "gain": 0.15660208463668823,
+   "ci_lo": 0.14600167237222195,
+   "viol_budget": 0.0,
+   "admissible": true
+  },
+  {
+   "policy": "vdn",
+   "score": 0.7262593231415964,
+   "gain": 0.1536831110715866,
+   "ci_lo": 0.14493299908936025,
+   "viol_budget": 0.0,
+   "admissible": true
+  },
+  {
+   "policy": "happo",
+   "score": 0.4707801906454474,
+   "gain": 0.1305195838212967,
+   "ci_lo": 0.10688958279788494,
+   "viol_budget": 0.0,
+   "admissible": true
+  },
+  {
+   "policy": "coma",
+   "score": 0.10197600187579677,
+   "gain": 0.08623486012220383,
+   "ci_lo": 0.0685116471722722,
+   "viol_budget": 0.0,
+   "admissible": true
+  }
+ ]
+}
